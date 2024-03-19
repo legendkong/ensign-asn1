@@ -1,0 +1,184 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Start of header css*/
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.logo {
+  height: 45px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.divider {
+  height: 38px;
+  width: 3px;
+  background-color: #eeeeee;
+  margin: 0 20px;
+}
+
+.search-container {
+  position: relative;
+  flex-grow: 1;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+}
+
+.search-bar {
+  padding-left: 40px;
+  border: #ccc;
+  border-radius: 4px;
+  height: 40px;
+  width: 90%;
+}
+
+::placeholder {
+  color: rgb(188, 188, 188);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+
+.user-name {
+  font-weight: 600;
+}
+/* End of header css */
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.body {
+  background-color: #f0f0f0bb;
+}
+
+.column {
+  width: calc(33% - 20px);
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.task-card {
+  height: 130px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  padding: 17px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  line-height: 1.7;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1em;
+  margin: 0;
+  color: #343434;
+}
+
+.initials-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.card-description {
+  font-size: 0.9em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #b3b3b3;
+  font-weight: 200;
+}
+
+.timestamp {
+  font-size: 0.8em;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  left: 17px;
+  right: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  bottom: 12px;
+}
+
+/* timestamps */
+#overdue {
+  color: rgb(200, 2, 2);
+}
+#today {
+  color: rgb(201, 8, 201);
+}
+#done {
+  color: rgb(175, 175, 175);
+}
+#duesoon {
+  color: rgb(7, 205, 7);
+}
+
+/* circle colour */
+#pink {
+  background-color: rgb(192, 6, 209);
+}
+#blue {
+  background-color: blue;
+}
+#purple {
+  background-color: rgb(143, 5, 243);
+}
+#teal {
+  background-color: rgb(9, 189, 189);
+}

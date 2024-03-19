@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Board</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body">
+    <header>
+      <div class="header-content">
+        <img src="apple_logo_rainbow.png" alt="Company Logo" class="logo" />
+        <div class="divider"></div>
+        <div class="search-container">
+          <img
+            src="magnifying_glass_icon.png"
+            alt="Search"
+            class="search-icon"
+          />
+          <input
+            type="search"
+            placeholder="Search for ..."
+            class="search-bar"
+          />
+        </div>
+        <div class="user-info">
+          <img src="rickastley.jpeg" alt="User Avatar" class="user-avatar" />
+          <span class="user-name">Analyst User</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="column backlog">
+        <h2>Backlog</h2>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">Monkey D Luffy</h3>
+          </div>
+          <p class="card-description">
+            My name is Monkey D Luffy. I'm gonna be the king of the pirates!
+          </p>
+          <div class="card-footer">
+            <div class="initials-circle">oz</div>
+          </div>
+        </div>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">Roronoa Zoro</h3>
+          </div>
+          <p class="card-description">NOTHING HAPPENED</p>
+          <div class="card-footer">
+            <div class="initials-circle" id="pink">LE</div>
+            <span class="timestamp" id="overdue">Two days ago</span>
+          </div>
+        </div>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">Brook</h3>
+          </div>
+          <p class="card-description">
+            Young lady... What kind of fool would ever plan to die?
+          </p>
+          <div class="card-footer">
+            <div class="initials-circle" id="teal">ME</div>
+          </div>
+        </div>
+      </section>
+      <section class="column todo">
+        <h2>Todo</h2>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">Nami</h3>
+          </div>
+          <p class="card-description">Good job everyone!</p>
+          <div class="card-footer">
+            <div class="initials-circle" id="purple">AM</div>
+            <span class="timestamp" id="today">Today</span>
+          </div>
+        </div>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">Franky</h3>
+          </div>
+          <p class="card-description">
+            SUPEEERRRRRRRRRRRR RRRRRRRRRRRR RRRRRRRRRRRRRRR RRR
+          </p>
+          <div class="card-footer">
+            <div class="initials-circle">oz</div>
+            <span class="timestamp" id="duesoon">In three days</span>
+          </div>
+        </div>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">Vinsmoke Sanji</h3>
+          </div>
+          <p class="card-description">
+            I don't care if you're a god. If you lay even one finger on
+            Nami-san, I'll become the Devil of the Blue Sea!
+          </p>
+          <div class="card-footer">
+            <div class="initials-circle" id="pink">LE</div>
+            <span class="timestamp" id="duesoon">July 21</span>
+          </div>
+        </div>
+      </section>
+      <section class="column done">
+        <h2>Done</h2>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">Tony Tony Chopper</h3>
+          </div>
+          <p class="card-description">
+            My name is Tony Tony Chopper! It was given to me by the greatest
+            doctor in the world!
+          </p>
+          <div class="card-footer">
+            <div class="initials-circle" id="pink">LE</div>
+            <span class="timestamp" id="done">A week ago</span>
+          </div>
+        </div>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">Nico Robin</h3>
+          </div>
+          <p class="card-description">
+            Fools who don't respect the past are likely to repeat it.
+          </p>
+          <div class="card-footer">
+            <div class="initials-circle">oz</div>
+            <span class="timestamp" id="done">Last Tuesday</span>
+          </div>
+        </div>
+        <div class="task-card">
+          <div class="card-header">
+            <h3 class="card-title">SOGEKINGU</h3>
+          </div>
+          <p class="card-description">
+            I do not fear dying. Death can have me when it earns me.
+          </p>
+          <div class="card-footer">
+            <div class="initials-circle" id="purple">AM</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
